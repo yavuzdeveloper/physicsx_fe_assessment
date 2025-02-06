@@ -65,3 +65,37 @@
   font-weight: bold;
   margin-left: 20px;
 }
+
+.box {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: #c6efce;
+  border: 1px solid #8bc34a;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.kelvin {
+  font-weight: bold;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  display: flex;
+}
